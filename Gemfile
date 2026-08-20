@@ -7,7 +7,7 @@ git_source(:bc)     { |repo| "https://github.com/basecamp/#{repo}" }
 gem "rails", github: "rails/rails", branch: "main"
 
 # Drivers
-gem "sqlite3", "~> 2.7"
+gem "sqlite3", "~> 2.9"
 gem "redis", "~> 5.4"
 
 # Deployment
